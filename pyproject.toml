@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "labelbox-demo-date-metadata-field-bug"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin Jaffe-Talberg <ben.talberg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+labelbox = "^3.49.1"
+notebook = "^7.0.0"
+python-dotenv = "^1.0.0"
+tenacity = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
